@@ -9,7 +9,8 @@
 # puts d
 # puts e
 
-a = %w! apple melon orange!
-b = %w@ big\ grape lemon persimmon@
-puts a
-puts b
+# a = %w! apple melon orange!
+# b = %w@ big\ grape lemon persimmon@
+# puts a
+# puts b
+
