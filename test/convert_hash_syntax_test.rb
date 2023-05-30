@@ -6,8 +6,8 @@ class ConvertHashSyntaxTest < Minitest::Test
     old_syntax = <<~TEXT
       {
         :name => 'Alice',
-        :age => 20,
-        :gender => :female
+        :age=>20,
+        :gender  =>  :female
       }
     TEXT
     expected = <<~TEXT
