@@ -5,9 +5,14 @@ class Product
     @name = name
     @price = price
   end
+  
+  def to_s
+    "name: #{name}, price: #{price}"
+  end
 end
 
-# product = Product.new('A great movie', 1000)
+ product = Product.new('A great movie', 1000)
+ p product.to_s
 # p product.name
 # p product.price
 
@@ -18,10 +23,11 @@ class DVD < Product
     super(name, price)
     @running_time = running_time
   end
+  
+  def to_s
+    "#{super}, running_time: #{running_time}"
+  end
 end
 
-dvd = DVD.new('A great movie', 1000, 120)
-p dvd.name
-p dvd.price
-p dvd.running_time
-
+dvd = DVD.new('An awesome film', 3000, 120)
+p dvd.to_s
