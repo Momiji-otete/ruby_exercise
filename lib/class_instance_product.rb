@@ -17,8 +17,3 @@ class Product
     @name
   end
 end
-
-p Product.name
-
-product = Product.new('A great movie')
-p product.name
