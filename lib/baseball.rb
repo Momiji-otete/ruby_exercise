@@ -1,5 +1,7 @@
 module Baseball
+  #スコアを記録するためのFileクラスを定義する
   class File
+    #省略
   end
   
   class Second
