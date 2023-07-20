@@ -17,11 +17,12 @@
 
 input = gets.split(' ').map(&:to_i)
 order = readlines.chomp.map { |line| line.split(' ') }
-array = []
+# array = []
 
-for i in 1..input[0]
-  array.push(i)
-end
+# for i in 1..input[0]
+#   array.push(i)
+# end
+array = (1..input[0]).map { |x| x }
 
 for j in 1..input[1]
   if order[j - 1][0] == "swap"
